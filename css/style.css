@@ -1,0 +1,219 @@
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.svg{
+    z-index: -1;
+}
+/* All common CSS End */
+
+/* Header Part Start */
+.nav-link {
+  color: #212832;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.sign a {
+  border: 1px solid black;
+  padding: 5px 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+    color: #212832;
+    border-radius: 5px;
+
+}
+.sign select{
+    border:none;
+}
+img{
+    width:100%;
+    height:auto;
+}
+select{
+    background: transparent;
+}
+
+/* Header Part Start */
+
+/* Banner Part Start */
+.bannerInfo h5{
+    color:coral;
+    font-weight: bold;
+      font-family: "Poppins", sans-serif;
+
+}
+.bannerInfo p{
+    color:#5E6282;
+    font-size: 16px;
+    line-height: 30px;
+        width:400px;
+
+}
+.bt{
+ color:#5E6282;
+    font-size: 16px;
+    line-height: 30px;
+}
+.bannerInfo img{
+padding:40px 0;}
+ .bannerInfo{
+  padding: 100px 0;
+ }
+.bannerInfo .golla i{
+  color:white;
+}
+
+
+.golla{
+    width:40px;
+    height:40px;
+    background: #FF6D4A;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    animation: animate-pulse 3s linear infinite;
+        margin-left: 20px;
+
+    cursor: pointer;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(255,109,74,0.7),  0 0 0 0 rgba(255,109,74,0.7);
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0.0),  0 0 0 0 rgba(255,109,74,0.7);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
+    }
+    
+}
+
+
+/* Banner Part Start */
+
+/* Categpry Part Start */
+
+.heading h2{
+color: #14183e;
+font-size: 50px;
+  font-family: "Poppins", sans-serif;
+
+}
+.heading span{
+font-size: 18px;
+font-weight: 600;
+color: #14183e;
+
+}
+.mic{
+    width:80%;
+    margin: auto;
+}
+.info{
+    padding:10px 20px;
+    border-radius: 20px;
+        background-color: #FFF;
+    transition: all linear .4s;
+
+}
+.box-text{
+    
+ color:#5E6282;
+    font-size: 16px;
+    line-height:20px;
+    width:180px;
+    margin: auto;
+}
+.komla{
+    width:80px;
+    height:90px;
+    background-color: #FF6D4A;
+    border-bottom-right-radius:20px;
+        border-top-left-radius:20px;
+
+    position: absolute;
+    top:250px;
+    left:0;
+    z-index: -1;
+    visibility: hidden;
+}
+.info:hover .komla{
+    visibility: visible;
+
+}
+.info:hover{
+    box-shadow: 0px 10px 50px rgb(176, 174, 174);
+}
+/* Categpry Part Start */
+
+/* Destination Part Start */
+
+.romeInfo{
+    width:63%;
+    margin:auto;
+padding:20px 10px;
+position: absolute;
+top:280px;
+left:70px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+background:white;
+box-shadow: 0px 5px 50px grey;
+}
+.spring{
+    top:0;
+    right:0;
+}
+/* Destination Part Start */
+
+
+/* Header Part Start */
+/* Header Part Start */
+
+
+/* Header Part Start */
+/* Header Part Start */
+
+
+/* Header Part Start */
+/* Header Part Start */
+
+
+/* Header Part Start */
+/* Header Part Start */
+

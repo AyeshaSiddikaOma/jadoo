@@ -229,5 +229,24 @@ select {
 }
 /* Red Part Start */
 
-/* Header Part Start */
-/* Header Part Start */
+/* Slider Part Start */
+
+.carousel-control-prev{
+    left:85% !important;
+    top:10%;
+}
+.dots {
+    position: absolute;
+    top: 184px;
+    left: -420px;
+    width: 100px;
+    height: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    background-color: #ff6d4a;
+}
+/* Slider Part Start */

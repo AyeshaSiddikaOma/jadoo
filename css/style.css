@@ -177,34 +177,6 @@ color: #14183e;
 }
 /* Categpry Part Start */
 
-/* Destination Part Start */
-
-.romeInfo{
-    width:63%;
-    margin:auto;
-padding:20px 10px;
-position: absolute;
-top:280px;
-left:70px;
-border-bottom-left-radius: 20px;
-border-bottom-right-radius: 20px;
-
-background:white;
-box-shadow: 0px 5px 50px grey;
-}
-.spring{
-    top:0;
-    right:0;
-}
-/* Destination Part Start */
-
-
-/* Book Part Start */
-.img{
-    width:70px;
-    height:70px;
-}
-/* Book Part Start */
 
 
 /* Header Part Start */

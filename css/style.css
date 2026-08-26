@@ -199,6 +199,14 @@ select {
 /* Red Part Start */
 .red{
     padding: 120px 0;
+    margin-left: 100px;
+
+}
+.card{
+    border-radius: 20px;
+     box-shadow: 
+        25px -20px 50px rgba(135, 206, 235, 0.35),
+        0 10px 30px rgba(0, 0, 0, 0.08);
 }
 .picture{
     width:50px;
@@ -208,7 +216,17 @@ select {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.hover{
+    top:60%;
+    left:30%;
+    box-shadow: 2px 2px 50px grey;
+    border-radius: 20px;
+    width:100%;
+    visibility: hidden;
+}
+.red:hover .hover{
+ visibility: visible;
+}
 /* Red Part Start */
 
 /* Header Part Start */

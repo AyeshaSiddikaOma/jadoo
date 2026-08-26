@@ -179,8 +179,16 @@ color: #14183e;
 
 
 
-/* Header Part Start */
-/* Header Part Start */
+/* Destination Part Start */
+.img{
+    width:100%;
+    height:500px;
+    background: url(../images/rome.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/* Destination Part Start */
 
 
 /* Header Part Start */

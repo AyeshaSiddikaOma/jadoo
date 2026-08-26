@@ -1,50 +1,6 @@
-/* Extra Small Device */
-@media (max-width: 575.98px) {
-   .romeInfo {
-    top: 456px;
-    left: 105px;
-}
-.ms-auto{
-    background:rgb(234, 234, 210);
-}
-.nav-link{
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-}
-}
 
-/* Small Device */
-@media (min-width: 576px) and (max-width: 767.98px) {
- .romeInfo {
-    top: 423px;
-    left: 96px;
-}
-.ms-auto{
-    background:rgb(209, 169, 154);
-}
-.nav-link{
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-}
-}
 
-/* Medium Device */
-@media (min-width: 768px) and (max-width: 991.98px) {
-   .romeInfo {
-    top: 596px;
-    left: 130px;
-}
-.ms-auto{
-    background:rgb(209, 169, 154);
-}
-.nav-link{
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-}
-}
+
 
 /* Large Device */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -62,12 +18,53 @@
 }
 }
 
-/* Extra Large Device */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  
+
+/* Medium Device */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .romeInfo {
+    top: 596px;
+    left: 130px;
+}
+.ms-auto{
+    background:rgb(209, 169, 154);
+}
+.nav-link{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
 }
 
-/* Extra Extra Large Device */
-@media (min-width: 1400px) {
-  
+
+/* Small Device */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ .romeInfo {
+    top: 423px;
+    left: 96px;
 }
+.ms-auto{
+    background:rgb(209, 169, 154);
+}
+.nav-link{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+}
+
+/* Extra Small Device */
+@media (max-width: 575.98px) {
+   .romeInfo {
+    top: 456px;
+    left: 105px;
+}
+.ms-auto{
+    background:rgb(234, 234, 210);
+}
+.nav-link{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+}
+

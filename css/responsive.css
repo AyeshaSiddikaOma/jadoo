@@ -25,11 +25,15 @@
     font-weight: 700;
     font-size: 30px;
 }
+.last{
+    margin: auto;
+
+}
 }
 
 
 /* Small Device */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 
 .ms-auto{
     background:rgb(209, 169, 154);
@@ -39,6 +43,7 @@
     font-weight: 700;
     font-size: 30px;
 }
+
 }
 
 /* Extra Small Device */
@@ -52,5 +57,9 @@
     font-weight: 700;
     font-size: 30px;
 }
+
+/* ============= */
+
+
 }
 

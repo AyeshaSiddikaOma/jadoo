@@ -189,6 +189,16 @@ color: #14183e;
     background-repeat: no-repeat;
     
 }
+.img{
+    border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+}
+.information{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    box-shadow: 5px 5px 50px grey;
+}
 /* Destination Part Start */
 
 

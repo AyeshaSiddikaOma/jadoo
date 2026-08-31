@@ -264,7 +264,11 @@ select {
 
   /* ---- Subscribe section ---- */
   .subscribe-section{
-    background: linear-gradient(135deg, #f4f4fb 0%, #eef0fa 100%);
+background: url(../images/bg.png);
+background-repeat: no-repeat;
+background-position:center ;
+background-size: cover;
+
     border-radius: 24px;
     padding: 70px 20px;
     position: relative;
@@ -386,4 +390,7 @@ select {
     text-align:center;
     color:#a5a5b0;
     font-size:0.85rem;
+  }
+  .subscribe-section{
+
   }
